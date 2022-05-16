@@ -1,0 +1,28 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '🏗️👷 Styling, testing and building your project before committing'
+
+npm run check-typescript ||
+(
+    echo 'Tarunga sa na intawn!';
+    false;
+)
+
+npm run check-lint ||
+(
+    echo '  wala ka kapasar lint, sorry kaayo!';
+    false;
+)
+
+npm run prettier-format ||
+(
+    echo 'bangaa nimo oy!';
+    false;
+)
+
+npm run prettier-check ||
+(
+    echo 'Katapulan ba nimo!';
+    false;
+)

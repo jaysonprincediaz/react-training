@@ -1,0 +1,13 @@
+node_modules/
+coverage/
+.vscode/
+
+tsconfig.json
+package-lock.json
+
+react-app.env.d.ts
+reportWebVitals.ts
+setupTests.ts
+
+.husky/
+build/
