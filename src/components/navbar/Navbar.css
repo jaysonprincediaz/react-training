@@ -4,8 +4,13 @@
   align-items: center;
   background-color: rgb(45, 45, 45);
   color: white;
-  font-family: 'Montserrat', sans-serif;
   height: 80px;
+}
+
+.navbar-logo {
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar-lists {
