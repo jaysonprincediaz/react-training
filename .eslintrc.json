@@ -7,6 +7,7 @@
   "extends": ["plugin:react/recommended", "airbnb"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
+    "arrow-body-style": ["error", "always"],
     "ecmaFeatures": {
       "jsx": true
     },
@@ -19,9 +20,12 @@
     "no-unused-vars": "warn",
     "import/extensions": "off",
     "import/no-unresolved": "warn",
-    "comma-dangle": ["error", "never"]
+    "comma-dangle": ["error", "never"],
+    "linebreak-style": 0,
+    "arrow-body-style": ["error", "always"],
+    "react/function-component-definition": "off",
+    "max-len": "off"
   },
-
   "settings": {
     "import/resolver": {
       "typescript": {}
