@@ -20,7 +20,7 @@
     "no-unused-vars": "warn",
     "import/extensions": "off",
     "import/no-unresolved": "warn",
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": "off",
     "linebreak-style": 0,
     "arrow-body-style": ["error", "always"],
     "react/function-component-definition": "off",

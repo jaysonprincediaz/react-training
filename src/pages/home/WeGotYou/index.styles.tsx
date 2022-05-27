@@ -30,17 +30,53 @@ export const WeGotYouContainer = styled.div`
   background-size: cover;
 `;
 
+export const CardsContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin-top: 4%;
+`;
+
 export const CardContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  border-radius: 2px;
+  width: 20rem;
+  height: 25rem;
+  background-color: #303030;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+
+  &:hover {
+    transform: scale(1.05);
+    background: #95dada;
+    color: black;
+  }
 `;
 
 export const CardImage = styled.div`
-  border-radius: 1.5rem;
-  overflow: hidden;
+  height: 60%;
 `;
 
-export const HeaderThree = styled.h3`
-  margin: 1.2rem 0 2rem;
+export const Image = styled.img`
+  width: 100%;
+  height: 100%;
+`;
+
+export const TextContent = styled.div`
+  height: 40%;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`;
+
+export const HeaderTwo = styled.h2`
+  margin: auto;
+`;
+
+export const PTag = styled.p`
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
 `;

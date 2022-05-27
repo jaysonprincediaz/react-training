@@ -20,7 +20,7 @@ export const GrowYourBusinessContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-image: url(${GYB});
-  height: 100vh;
+  height: 90vh;
   object-fit: contain;
   justify-content: center;
   color: white;

@@ -1,9 +1,22 @@
 /* eslint-disable object-curly-newline */
 import React from 'react';
 
-import CardOne from 'src/assets/second.jpg';
+import ImageOne from 'src/assets/second.jpg';
+import ImageTwo from 'src/assets/fifth.png';
+import ImageThree from 'src/assets/third.jpg';
 
-import { WeGotYouContainer, HeaderOne, Paragraph, CardContainer, CardImage, HeaderThree } from './index.styles';
+import {
+  WeGotYouContainer,
+  HeaderOne,
+  Paragraph,
+  CardsContainer,
+  CardImage,
+  Image,
+  TextContent,
+  CardContainer,
+  HeaderTwo,
+  PTag,
+} from './index.styles';
 
 const WeGotYou = (): React.ReactElement => {
   return (
@@ -15,15 +28,40 @@ const WeGotYou = (): React.ReactElement => {
           magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodoconsequat.
         </Paragraph>
-        <CardContainer>
-          <CardImage>
-            <img src={CardOne} alt="" />
-          </CardImage>
-          <HeaderThree>INSIGHTS</HeaderThree>
-          <div>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-        </CardContainer>
+        <CardsContainer>
+          <CardContainer>
+            <CardImage>
+              <Image src={ImageOne} alt="img" />
+            </CardImage>
+
+            <TextContent>
+              <HeaderTwo>INSIGHTS</HeaderTwo>
+              <PTag>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</PTag>
+            </TextContent>
+          </CardContainer>
+
+          <CardContainer>
+            <CardImage>
+              <Image src={ImageTwo} alt="img" />
+            </CardImage>
+
+            <TextContent>
+              <HeaderTwo>CREATIVITY</HeaderTwo>
+              <PTag>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</PTag>
+            </TextContent>
+          </CardContainer>
+
+          <CardContainer>
+            <CardImage>
+              <Image src={ImageThree} alt="img" />
+            </CardImage>
+
+            <TextContent>
+              <HeaderTwo>GROWTH</HeaderTwo>
+              <PTag>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</PTag>
+            </TextContent>
+          </CardContainer>
+        </CardsContainer>
       </WeGotYouContainer>
     </div>
   );
