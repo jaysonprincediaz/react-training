@@ -10,9 +10,9 @@ export const ButtonStyles = styled.button`
   margin-left: 5rem;
   margin-top: 2.5rem;
   padding: 0.25em 1em;
-  max-width: 15%;
-  height: 6%;
-  font-size: 10px;
+  max-width: 22%;
+  height: 8%;
+  font-size: 15px;
   cursor: pointer;
 
   &:hover {

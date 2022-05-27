@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: black;
+  color: #009c9f;
 }
 
 nav ul li:after {
@@ -69,11 +69,11 @@ nav ul li:hover:after {
     margin: 1%;
     height: 1px;
     z-index: -1;
-    background: rgb(255, 255, 255);
+    background: #009c9f;
     border-radius: 100%;
   }
   100% {
-    background: #009c9f;
+    background: #2c2c2c;
     height: 5000%;
     width: 5000%;
     z-index: -1;
