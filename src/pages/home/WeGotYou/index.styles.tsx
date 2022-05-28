@@ -34,7 +34,7 @@ export const CardsContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
-  margin-top: 4%;
+  margin-top: 3%;
 `;
 
 export const CardContainer = styled.div`

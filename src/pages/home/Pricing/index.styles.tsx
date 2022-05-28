@@ -34,7 +34,7 @@ export const CardsContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
-  margin-top: 4%;
+  margin-top: 3%;
 `;
 
 export const CardContainer = styled.div`
@@ -92,6 +92,7 @@ export const ButtonPrice = styled.button`
   width: 100%;
   height: 25%;
   font-size: 25px;
+  font-weight: bold;
   cursor: pointer;
 
   &:hover {

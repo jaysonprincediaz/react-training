@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 import React from 'react';
 
 import { WeAreCreativeContainer, Content, ContentContainer, PTag, HeaderOne, Button } from './index.styles';
