@@ -1,3 +1,6 @@
+/* eslint-disable indent */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable object-curly-newline */
 import React from 'react';
 
 import { Container, TextContainer, PTag, HeaderOne } from './index.styles';

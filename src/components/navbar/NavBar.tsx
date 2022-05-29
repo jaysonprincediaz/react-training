@@ -19,7 +19,6 @@ const NavBar = (): React.ReactElement => {
         <SiEgghead />
         EGG
       </div>
-    
       <ul className="navbar-lists">
         <li onClick={() => navigate('/')}>HOME</li>
         <li onClick={() => navigate('/about')}>ABOUT US</li>

@@ -27,7 +27,7 @@ import {
   MarginIcons,
 } from './index.styles';
 
-const ConnectWithUs = () => {
+const ConnectWithUs = (): React.ReactElement => {
   return (
     <ContactContainer>
       <UpperContent>
