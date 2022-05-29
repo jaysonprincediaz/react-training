@@ -18,6 +18,7 @@ export const Paragraph = styled.p`
   justify-content: center;
   padding: 0 15rem;
   font-size: 20px;
+  text-align: center;
 `;
 
 export const WeGotYouContainer = styled.div`
@@ -81,6 +82,7 @@ export const PTag = styled.p`
   justify-content: center;
   margin-left: 20px;
   top: 10rem;
+  text-align: center;
 `;
 
 export const ButtonPrice = styled.button`

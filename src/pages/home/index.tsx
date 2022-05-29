@@ -7,6 +7,7 @@ import WeAreCreative from './WeAreCreative';
 import WeArePassionate from './WeArePassionate';
 import OurStatistic from './OurStatistics';
 import OurDigitalMarketingProcess from './OurDigitalMarketingProcess';
+import ConnectWithUs from './ConnectWithUs';
 
 const Home = (): React.ReactElement => {
   return (
@@ -18,6 +19,7 @@ const Home = (): React.ReactElement => {
       <WeArePassionate />
       <OurStatistic />
       <OurDigitalMarketingProcess />
+      <ConnectWithUs />
     </div>
   );
 };

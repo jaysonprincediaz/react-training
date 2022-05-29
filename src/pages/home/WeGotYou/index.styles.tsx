@@ -17,6 +17,7 @@ export const Paragraph = styled.p`
   display: grid;
   justify-content: center;
   padding: 0 15rem;
+  text-align: center;
   font-size: 20px;
 `;
 
